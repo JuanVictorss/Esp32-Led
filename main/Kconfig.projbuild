@@ -1,0 +1,24 @@
+menu "Example Configuration"
+
+    config BROKER_URL
+        string "Broker URL"
+        default "mqtt://mqtt.eclipseprojects.io"
+        help
+            URL of the broker to connect to. We will change this to mqtt://broker.hivemq.com later.
+
+    config BROKER_URL_FROM_STDIN
+        bool
+        default y if BROKER_URL = "FROM_STDIN"
+
+endmenu
+
+
+menu "Project Configuration"
+
+    config BLINK_GPIO
+        int "LED GPIO Number"
+        default 2
+        help
+            GPIO number for the on-board LED. The default is 2 for most ESP32 DevKits.
+
+endmenu 

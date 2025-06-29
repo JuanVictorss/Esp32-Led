@@ -1,0 +1,28 @@
+# Arquivos e pastas gerados pelo processo de compilação do ESP-IDF
+# Esta é a regra mais importante!
+/build/
+
+# Componentes gerenciados e baixados pelo ESP-IDF.
+# Eles podem ser baixados novamente usando o arquivo dependencies.lock
+/managed_components/
+
+# Arquivos de configuração de backup e de build temporários
+sdkconfig.old
+sdkconfig.ci
+sdkconfig.ci.*
+
+# Arquivos gerados pelo sistema de build (KConfig)
+/KConfig.projbuild
+
+# Configurações específicas do editor de código (Visual Studio Code)
+# É uma boa prática ignorar para não compartilhar configurações pessoais.
+.vscode/
+# .devcontainer/  <-- Opcional: descomente (remova o #) se não quiser compartilhar sua configuração de container de desenvolvimento.
+
+# Arquivos de dependências do Python (se você usar o virtualenv localmente)
+/venv/
+__pycache__/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
