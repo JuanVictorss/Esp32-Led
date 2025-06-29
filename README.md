@@ -28,7 +28,7 @@ git clone https://github.com/JuanVictorss/Esp32-Led.git
 cd Esp32-Led
 ```
 
-### 2. Configure o Wi-Fi e o Broker (Passo mais importante!)
+### 2. COM O AMBIENTE MONTADO Configure o Wi-Fi e o Broker
 
 Use o menu de configuração do ESP-IDF para colocar os dados da sua rede e do seu broker.
 
