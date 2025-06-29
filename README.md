@@ -27,8 +27,8 @@ Abra um terminal e clone este repositório para o seu computador.
 git clone https://github.com/JuanVictorss/Esp32-Led.git
 cd Esp32-Led
 ```
-
-### 2. COM O AMBIENTE MONTADO Configure o Wi-Fi e o Broker
+### COM O AMBIENTE MONTADO, RECOMENDO QUE O PROJETO ESTEJA NA PASTA "Espressif"
+### 2. Configure o Wi-Fi e o Broker
 
 Use o menu de configuração do ESP-IDF para colocar os dados da sua rede e do seu broker.
 
